@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="VTFontSize">25dp</dimen>
+    <dimen name="ETFontSize">20dp</dimen>
+    <dimen name="ViewTextWidth"> 200dp</dimen>
+    <dimen name="ViewTextHeight"> 30dp</dimen>
+    <dimen name="EditTextWidth">200dp</dimen>
+    <dimen name="EditTextHeight">50dp</dimen>
+
+    <dimen name="ButtonWidth">150dp</dimen>
+    <dimen name="ButtonHeight">70dp</dimen>
+
+
+
+</resources>
