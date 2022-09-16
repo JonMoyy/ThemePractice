@@ -13,6 +13,11 @@
     
     <dimen name="parentPadding">10dp</dimen>
 
+    <dimen name="radioWidth">330dp</dimen>
+    <dimen name="radioHeight">50dp</dimen>
+    <dimen name="radioButtonWidth">100dp</dimen>
+    <dimen name="radioButtonHeight">30dp</dimen>
+    <dimen name="radioFontSize">15dp</dimen>
 
 
 </resources>

@@ -22,8 +22,8 @@
             android:layout_width="@dimen/EditTextWidth"
             android:layout_height="@dimen/EditTextHeight"
             android:layout_below="@id/ETFirstName"
-            android:layout_marginTop="20dp"
-            android:background="@colors/primaryTextColor"
+            android:layout_marginTop="30dp"
+            android:background="@color/primaryTextColor"
             android:backgroundTint="#FFFFFF"
             android:ems="10"
             android:hint="Email"
@@ -34,7 +34,7 @@
             android:id="@+id/ETLastName"
             android:layout_width="@dimen/EditTextWidth"
             android:layout_height="@dimen/EditTextHeight"
-            android:layout_marginLeft="30dp"
+            android:layout_marginLeft="10dp"
             android:layout_toRightOf="@id/ETFirstName"
             android:background="@color/primaryTextColor"
             android:ems="10"
@@ -49,8 +49,8 @@
             android:layout_width="@dimen/EditTextWidth"
             android:layout_height="@dimen/EditTextHeight"
             android:layout_below="@+id/ETLastName"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
             android:layout_toRightOf="@id/ETEmail"
             android:background="@color/primaryTextColor"
             android:ems="10"
@@ -73,7 +73,7 @@
             android:textSize="@dimen/ETFontSize" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/joinButton"
             style="@style/LightTheme"
             android:layout_width="@dimen/ButtonWidth"
             android:layout_height="@dimen/ButtonHeight"
@@ -81,7 +81,8 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="100dp"
             android:layout_marginBottom="164dp"
-            android:text="Log in"
+            android:onClick="switchScreen"
+            android:text="Join"
             android:textColor="@color/primaryTextColor"
             android:textSize="@dimen/ButtonFontSize" />
     </RelativeLayout>
