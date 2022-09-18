@@ -14,7 +14,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void switchScreen(View view){
+    public void switchScreen(View v){
+        Intent intent = new Intent(MainActivity.this, SecondaryActivity.class);
+        startActivity(intent);
+    }
+
+    public void clickMethod(View view){
         Intent intent = new Intent(this, SecondActivity.class);
         startActivity(intent);
     }

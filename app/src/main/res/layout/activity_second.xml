@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:background="@color/secondaryLightColor"
+    >
+
+    <RadioGroup
+        android:id="@+id/feelingGroup"
+        android:layout_width="@dimen/radioWidth"
+        android:layout_height="@dimen/radioHeight"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="284dp"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RadioButton
+            android:id="@+id/feelBad"
+            style="@style/radioButton"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onClickMethod"
+            android:text="bad"
+
+            />
+
+        <RadioButton
+            android:id="@+id/feelOk"
+            style="@style/radioButton"
+            android:onClick="onClickMethod"
+            android:text="Ok" />
+
+        <RadioButton
+            android:id="@+id/feelGood"
+            style="@style/radioButton"
+
+            android:onClick="onClickMethod"
+            android:text="Good"
+
+            />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="152dp"
+        android:layout_marginBottom="52dp"
+        android:text="How do you feel?"
+        app:layout_constraintBottom_toTopOf="@+id/feelingGroup"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

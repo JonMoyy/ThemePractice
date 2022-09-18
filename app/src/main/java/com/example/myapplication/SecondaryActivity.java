@@ -1,19 +1,25 @@
 package com.example.myapplication;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.RadioButton;
+import android.widget.TextView;
 
-public class SecondActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
 
-    @Override
+import org.w3c.dom.Text;
+
+import java.util.ArrayList;
+
+public class SecondaryActivity extends AppCompatActivity {
+
+    private Object Gravity;
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second);
+        setContentView(R.layout.activity_main);
     }
-
 
     public void onClickMethod(View view){
 

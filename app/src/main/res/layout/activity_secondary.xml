@@ -14,21 +14,31 @@
         android:layout_height="@dimen/radioHeight"
         android:orientation="horizontal"
 
-
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="108dp">
+        tools:layout_editor_absoluteY="276dp"
+        >
+
 
         <RadioButton
             android:id="@+id/feelBad"
             style="@style/radioButton"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onClickMethod"
             android:text="bad" />
 
         <RadioButton
             android:id="@+id/feelOk"
             style="@style/radioButton"
-            android:text="Ok"
+            android:onClick="onClickMethod"
+            android:text="Ok" />
+
+        <RadioButton
+            android:id="@+id/feelGood"
+            style="@style/radioButton"
+            android:onClick="onClickMethod"
+            android:text="Good"
 
             />
 

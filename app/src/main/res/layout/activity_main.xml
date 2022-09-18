@@ -13,8 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="@dimen/parentPadding"
-        tools:layout_editor_absoluteX="-82dp"
-        tools:layout_editor_absoluteY="-78dp">
+        tools:layout_editor_absoluteX="-52dp"
+        tools:layout_editor_absoluteY="-70dp">
 
 
         <EditText
@@ -81,7 +81,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="100dp"
             android:layout_marginBottom="164dp"
-            android:onClick="switchScreen"
+            android:onClick="clickMethod"
             android:text="Join"
             android:textColor="@color/primaryTextColor"
             android:textSize="@dimen/ButtonFontSize" />
